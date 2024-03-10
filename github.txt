@@ -1,2 +1,104 @@
 hallo
 nama saya mufarricho
+
+/////////////////////////cara awal memulainya
+
+- git config --global user.name "nama username github"
+
+- git config --global user.email "nama email github"
+
+1. git init //muncul file baru hidden
+
+2. git status // untuk melihat status
+
+3. git add namaFile.jenisfile // memasukkan file kedalam sebuah kotak git atau bisa menggunakan git add . //ini adalah untuk memasukkan semua file didalam folder untuk di update atau di masukkan kedalam kotak git
+
+4. git commit //untuk memastikan file sudah tersimpan di github , git commit -m "kasih pesan update file.jenisfile"
+
+5.git status // unutk melihat status file yang belum terupdate
+
+6. git remote add origin ...url...
+
+7. git push --set-upstream origin master
+
+8. login
+
+
+
+
+
+/////////////////// cara untuk update file di github
+
+1. git add .
+
+2. git commit -m "update fileyangdiupdate.jenisfile"
+
+3. git push
+
+4. git log // untuk melihat history dan update 
+
+
+
+
+
+
+////////////////////cara jika window gitbash sudah di cancel
+- git config --global user.name "nama username github"
+
+- git config --global user.email "nama email github"
+
+1. git init //muncul file baru hidden
+
+2. git status // untuk melihat status
+
+3. git add .
+
+4. git commit -m "update fileyangdiupdate.jenisfile"
+
+5. git push
+
+6. git log //lihat status update
+
+///////////////////////////////////////analogi
+analogi : kita mengirim sebuah barang -> dimasukkan ke dalam kotak -> kotak tersebut di tutup diberi pesan -> git status ibarat melihat resi atau status sudah terkirim atau tidak dan di file tersebut apakah masih ada yang belum terkirim.-> beri alamat pengiriman (kasih url di github dengan cara {git remote add origin ...link...}) -> git push --set-upstream origin master -> login -> dikirim (git push)
+
+
+
+
+
+///////////////git branch (untuk berkolaborasi)
+
+- git branch -a (melihat daftar semua cabang di repositori Git Anda)
+
+- git fetch (digunakan untuk mengambil semua perubahan yang terjadi di repositori remote tanpa menggabungkannya ke cabang lokal Anda.)
+
+- git checkout ...nama branch... (untuk berpindah branch)
+
+- git branch (cek kita berada di branch mana)
+
+- git add .
+
+- git commit -m "update fileyangdiupdate.jenisfile"
+
+- git push
+
+- git branch ..nama branch.. master (untuk memindah data ke file lokal kita)
+
+
+
+////////////////////
+-git checkout ..namabranch.. (jika di remote belum muncul branch baru maka bisa menggunakan kode ini / singkronisasi)
+-git pull (jika belum ada perubahan di file lokal kita, bisa berpindah ke branch yang ingin kita sambungkan )
+//////////////////////////
+
+
+
+- git add .
+
+- git commit -m "update fileyangdiupdate.jenisfile"
+
+- git push
+
+
+////////////////////
+- git clone ..link.. (untuk mengunduh data / repository)
